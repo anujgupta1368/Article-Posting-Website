@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2e1e1 !important;
+    margin: 0;
+}
+
+.art-main{
+    position: relative;
+}
+
+header span{
+    color:#186F65;
+    font-weight: bold;
+}
+
+header {
+    /* background-color: #333; */
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Playfair Display', 'serif';
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+nav ul {
+    /* background-color: #333; */
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-family: 'Playfair Display', 'serif'; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #186F65;
+    text-decoration: none !important;
+    color:white !important;
+    transition: background-color 0.3s ease !important;
+    border-radius: 5px;
+}
+
+/* Style for the dashboard container */
+/* Dashboard Container */
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Article List */
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Article Item */
+.article-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px !important;
+    background-color: rgb(245, 245, 245) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-img-top{ 
+    padding:5px;
+    border-radius: 10px !important;
+}
+
+.card-body{
+    text-align:center;
+    font:white;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: Playfair Display, serif; 
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-title:hover {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.btn {
+    background-color: #186F65 !important;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-color: rgb(245, 245, 245) !important;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #186F65;
+}
+
+/* Delete Link */
+.delete-link {
+    color: #e74c3c;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.delete-link:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
